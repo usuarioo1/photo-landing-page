@@ -1,0 +1,275 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.barra {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.barra li {
+    display: inline-block;
+    margin: 7px;
+    padding: 10px 8px;
+
+}
+
+
+.img {
+    width: 600px;
+    height: 300px;
+    margin-left: 150px;
+    border: none;
+    margin-right: 20px;
+}
+
+.efecto {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+.efecto img {
+    float: left;
+    margin-right: 35px;
+    ;
+}
+/* Estilos Iconos */
+
+.contenedor {
+    color: white;
+    gap: 30px;
+    size: 30px;
+    display: flex;
+    justify-content: right;
+    margin-right: 600px;
+}
+
+.contenedor a {
+    font-size: 40px;
+    color: white;
+}
+.instagram {
+    color: white;
+}
+
+.proposito h2{
+    color: white;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: underline;
+    font-size: 45px;
+}
+.proposito p{
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+#recursos{
+    display: inline-flex;
+    color: black;
+    width: 1700px;
+    height: 850px;
+    border: solid 2px;
+    margin-left: 120px;
+}
+#recursos .guia-basica, .estilos, .camaras{
+    background-color: rgb(96, 33, 99);
+    width: 500px;
+    margin: 30px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 45px;
+    border: 2px solid white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#recursos h2{
+    font-size: 35px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    
+}
+
+/* imagenes de recursos*/
+.imagen1{
+width: 470px;
+height: 450px;
+}
+.imagen2{
+    width: 350px;
+    height: 500px;
+}
+.imagen3{
+    width: 400px;
+    height: 400px;
+}
+.pguiabasica{
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.pestilos{
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+
+}
+.pcamaras{
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;
+}
+.botonvm{
+    position: relative;
+    display: inline-block;
+    padding: 2px 30px;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.botonvm:hover {
+    background: green;
+    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+    border-radius: 30px;
+}
+.f1{
+    margin-left: 100px;
+    border: white solid 2px;
+}
+.f2{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: white solid 2px;
+}
+.f3{
+    border: white solid 2px;
+}
+.f4{
+    margin-left: 100px;
+    border: white solid 2px;
+}
+.f5{
+    margin-left: 100px;
+    margin-right: 100px;
+    border: white solid 2px;
+}
+.imagenes-2 img{
+   margin-top: 100px;
+   border: white solid 2px;
+}
+
+.imagenes3{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.f7{ 
+    border: white solid 2px;
+}
+.pregunta1{
+    display: inline;
+    justify-content: center;
+}
+.pregunta1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 500px;
+    display: flex;
+    border: white solid 3px;
+    justify-content: center;
+    margin-right: 100px;
+}
+.pregunta2{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 300px;
+    display: flex;
+    border: white solid 3px;
+    justify-content: center;
+    margin-right: 400px;
+    margin-top: 80px;
+}
+.pregunta2 p{
+    margin-left: 20px;
+}
+.pregunta3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 100px;
+    display: flex;
+    border: white solid 3px;
+    justify-content: center;
+    margin-right: 450px;
+    margin-top: 80px;
+}
+.pregunta3 p{
+    margin-left: 20px;
+}
+#footer{
+    width: 1600px;
+    height: 8rem;
+    background-color: rgb(96, 33, 99);
+    border: solid;
+    margin-top: 200px;
+    margin-left: 120px;
+    margin-bottom:30px;
+    border: solid white 1px;
+}
+#footer h3{
+    justify-content: center;
+}
+.sitios{
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    display: flex;
+    justify-items: center;
+}
+.sitiointeres{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+  text-align: center;
+
+}
+.sitiointeres a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 300px;
+
+}
+
+
+
+
+
